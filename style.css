@@ -1,0 +1,69 @@
+.hl{
+border: solid 3px aquamarine;
+
+
+}
+body {
+text-align: center;
+}
+.ibox {
+width: 200px;
+font-family:monospace;
+  font-weight: bold;
+  background-color: aquamarine;
+margin-left: 20px;
+}
+img
+{
+  border-style:solid;
+  border-color:black;
+  border: 0px;
+  border-radius: 80px;
+  padding: 5px;
+  width: 450px;
+  }
+  iframe
+{
+  border-style:solid;
+  border-color:black;
+  border: 0px;
+  border-radius: 80px;
+  padding: 5px;
+  width: 450px;
+  }
+p
+{font-family:monospace;
+ font-weight: bold;
+ font-kerning: normal;
+ }
+h1
+{font-family:monospace;
+font-kerning: normal;
+ }
+body
+{
+ text-align:center;
+
+background-image: radial-gradient(black 3%, transparent 0%);
+  background-color: aquamarine;
+  background-position: 0 0, 50px 50px;
+  background-size: 100px 100px;
+  height: 200px;
+  width: 100%;
+  }
+
+div 
+{
+font-family:monospace;
+ font-weight: bold;
+ font-kerning: normal;
+  outline-color: coral;
+}
+button
+{
+font-family:monospace;
+ font-weight: bold;
+ font-kerning: normal;
+   background-color: aquamarine;
+  outline-color: coral;
+}
