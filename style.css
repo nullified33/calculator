@@ -39,6 +39,7 @@ p
 h1
 {font-family:monospace;
 font-kerning: normal;
+position:sticky;
  }
 body
 {
@@ -65,5 +66,6 @@ font-family:monospace;
  font-weight: bold;
  font-kerning: normal;
    background-color: aquamarine;
-  outline-color: coral;
+  border-color: #e7e7e7;
+  color: black;
 }
