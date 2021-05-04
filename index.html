@@ -6,23 +6,19 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
   <title>Calculator</title>
-  <meta name="description" content="">
-  <meta name="author" content="">
+  <meta name="description" content="An easy to use open source web app based on Skeleton">
+  <meta name="author" content="3prm3">
 
   <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- FONT
+<!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
-
-  <!-- CSS
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="normalize.css">
   <link rel="stylesheet" href="skeleton.css">
-  <link rel="stylesheet" href="site.css">
+    <link rel="stylesheet" href="style.css">
+ 
   <script src="main.js"></script>
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -37,28 +33,34 @@
     <div class="row">
       <div class="one-half column" style="margin-top: 25%">
             <h1>
-       Stylish Calculator
+       Stylish Calculator  
     <div> ▎First Number
      <input type="number" class="ibox" id="n1">
     </div>
-
     <div> ▎Second Number
       <input  type="number" class="ibox" id="n2">
     </div>
+     <div> ▎Third Number
+      <input  type="number" class="ibox" id="n3">
+    </div>
         <p id="answer"></p>
 </h1>
-    <button onclick="add()">Addition</button>
-    <button onclick="subtract()">Subtraction</button>
-    <button onclick="multiply()">Multiplication</button>
-    <button onclick="division()">Division</button>
-    <button onclick="modulus()">Modulus</button>
-    <button onclick="area()"> Area  Of Square (Only Uses First Number)</button>
-    <button onclick="perim()"> Perimeter Of Square (Only Uses First Number)</button>
-	<p>©2021 3prm3.</p>
-	<script src="vendor.js"></script>
-<script src="foundation.js"></script>
+    <button onclick="add()">Addition(+)</button>
+    <button onclick="subtract()">Subtraction(-)</button>
+    <button onclick="multiply()">Multiplication(×)</button>
+    <button onclick="division()">Division(÷)</button>
+    <button onclick="modulus()">Modulus(%)</button>
+    <button onclick="areaSq()"> Area  Of Square (Only Uses First Number)</button>
+    <button onclick="perimSq()"> Perimeter Of Square (Only Uses First Number)</button>
+	    <button onclick="areaRect()"> Area  Of Rectangle</button>
+    <button onclick="perimRect()"> Perimeter Of Rectangle</button>
+    	    <button onclick="areaTri()"> Area  Of Triangle</button>
+    <button onclick="perimTri()"> Perimeter Of Triangle</button>
+	<marquee width="60%" direction="left" height="100px">
+<a href="https://raw.githubusercontent.com/3prm3/calculator/calc/LICENSE">©2021 3prm3.</a>
+</marquee>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
-  </body>
+</body>
 </html>
       </div>
     </div>
@@ -67,4 +69,6 @@
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
+<footer>
+</footer>
 </html>
