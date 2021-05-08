@@ -39,12 +39,14 @@ Number(document.getElementById("n1").value) %
 Number(document.getElementById("n2").value) 
 document.getElementById("answer").innerHTML =result;
 }
+// Partially redundant but here for idiots
 function perimSq() {
 var result =
 Number(document.getElementById("n1").value) *
 Number(4);
 document.getElementById("answer").innerHTML =result;
 }
+// Partially redundant but here for idiots
 function areaSq() {
 var result =
 Number(document.getElementById("n1").value) *
@@ -58,6 +60,7 @@ Number(document.getElementById("n2").value))*
 Number(2);
 document.getElementById("answer").innerHTML =result;
 }
+// Redundant but here for idiots
 function areaRect() {
 var result =
 Number(document.getElementById("n1").value) *
