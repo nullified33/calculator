@@ -1,6 +1,7 @@
 .hl {
   border: solid 3px aquamarine;
 }
+
 body {
   text-align: center;
   background-image: radial-gradient(black 3%, transparent 0%);
@@ -10,6 +11,7 @@ body {
   height: 200px;
   width: 100%;
 }
+
 .ibox {
   width: 200px;
   font-family: monospace;
@@ -17,6 +19,7 @@ body {
   background-color: aquamarine;
   margin-left: 20px;
 }
+
 img {
   border-style: solid;
   border-color: black;
@@ -25,6 +28,7 @@ img {
   padding: 5px;
   width: 450px;
 }
+
 iframe {
   border-style: solid;
   border-color: black;
@@ -33,22 +37,26 @@ iframe {
   padding: 5px;
   width: 450px;
 }
+
 p {
   font-family: monospace;
   font-weight: bold;
   font-kerning: normal;
 }
+
 h1 {
   font-family: monospace;
   font-kerning: normal;
   position: sticky;
 }
+
 div {
   font-family: monospace;
   font-weight: bold;
   font-kerning: normal;
   outline-color: black;
 }
+
 button {
   font-family: monospace;
   font-weight: bold;
@@ -57,3 +65,8 @@ button {
   border-color: #e7e7e7;
   color: black;
 }
+
+label {
+  border-left: 2px solid black;
+}
+
