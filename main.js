@@ -3,6 +3,7 @@ var secretSplash = [
   "On Github https://github.com/3prm3/calculator!",
   "Code peeker!",
   "You might want to fork this https://github.com/3prm3/calculator!",
+    "I'm pretty sure this will never be printed!",
 ];
 var rand = secretSplash[Math.floor(Math.random()*secretSplash.length)];
 console.log(rand);
