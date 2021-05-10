@@ -7,53 +7,52 @@ var secretSplash = [
 var rand = secretSplash[Math.floor(Math.random()*secretSplash.length)];
 console.log(rand);
 function add() {
-var result =
+ var result =
 Number(document.getElementById("n1").value) +
 Number(document.getElementById("n2").value)+
 Number(document.getElementById("n3").value);
 document.getElementById("answer").innerHTML =result;
 }
-
-function subtract() {
+ function subtract() {
 var result =
 Number(document.getElementById("n1").value) -
 Number(document.getElementById("n2").value) -
 Number(document.getElementById("n3").value);
 document.getElementById("answer").innerHTML =result
 }
-function multiply() {
+ function multiply() {
 var result =
 Number(document.getElementById("n1").value) *
 Number(document.getElementById("n2").value) 
 document.getElementById("answer").innerHTML =result;
 }
-function division() {
+ function division() {
 var result =
 Number(document.getElementById("n1").value) /
 Number(document.getElementById("n2").value) 
 document.getElementById("answer").innerHTML =result;
 }
-function modulus() {
+ function modulus() {
 var result =
 Number(document.getElementById("n1").value) %
 Number(document.getElementById("n2").value) 
 document.getElementById("answer").innerHTML =result;
 }
 // Partially redundant but here for idiots
-function perimSq() {
+ function perimSq() {
 var result =
 Number(document.getElementById("n1").value) *
 Number(4);
 document.getElementById("answer").innerHTML =result;
 }
 // Partially redundant but here for idiots
-function areaSq() {
+ function areaSq() {
 var result =
 Number(document.getElementById("n1").value) *
 Number(document.getElementById("n1").value);
 document.getElementById("answer").innerHTML =result;
 }
-function perimRect() {
+ function perimRect() {
 var result =
 (Number(document.getElementById("n1").value) +
 Number(document.getElementById("n2").value))*
@@ -61,20 +60,20 @@ Number(2);
 document.getElementById("answer").innerHTML =result;
 }
 // Redundant but here for idiots
-function areaRect() {
+ function areaRect() {
 var result =
 Number(document.getElementById("n1").value) *
 Number(document.getElementById("n2").value);
 document.getElementById("answer").innerHTML =result;
 }
-function areaTri() {
+ function areaTri() {
 var result =
 (Number(document.getElementById("n1").value) *
 Number(document.getElementById("n2").value))/
 Number(2);
 document.getElementById("answer").innerHTML =result;
 }
-function perimTri() {
+ function perimTri() {
 var result =
 Number(document.getElementById("n1").value) +
 Number(document.getElementById("n2").value)+
