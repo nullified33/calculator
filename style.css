@@ -1,72 +1,99 @@
 .hl {
-  border: solid 3px aquamarine;
+  border: solid 3px #808080;
 }
-
 body {
-  text-align: center;
-  background-image: radial-gradient(black 3%, transparent 0%);
-  background-color: aquamarine;
-  background-position: 0 0, 50px 50px;
+  background-color: #b0c4de;
+  background-position: 0 0 50px 50px;
   background-size: 100px 100px;
   height: 200px;
   width: 100%;
+  padding: 20px;
 }
-
 .ibox {
   width: 200px;
   font-family: monospace;
   font-weight: bold;
-  background-color: aquamarine;
+  background-color: #808080;
   margin-left: 20px;
 }
-
+.topnav {
+  background-color: #708090;
+}
 img {
   border-style: solid;
-  border-color: black;
-  border: 0px;
-  border-radius: 80px;
-  padding: 5px;
-  width: 450px;
+  border-color: #000;
+  border: 5px;
+  border-radius: 25px;
+  padding: 8px;
 }
-
 iframe {
   border-style: solid;
-  border-color: black;
+  border-color: #000;
   border: 0px;
-  border-radius: 80px;
+  border-radius: 25px;
   padding: 5px;
   width: 450px;
 }
-
 p {
   font-family: monospace;
   font-weight: bold;
   font-kerning: normal;
 }
-
 h1 {
   font-family: monospace;
   font-kerning: normal;
   position: sticky;
 }
-
 div {
   font-family: monospace;
   font-weight: bold;
   font-kerning: normal;
-  outline-color: black;
+  outline-color: #000;
 }
-
 button {
   font-family: monospace;
   font-weight: bold;
   font-kerning: normal;
-  background-color: darkseagreen;
+  background-color: #789;
   border-color: #e7e7e7;
-  color: black;
+  color: #000;
 }
-
 label {
-  border-left: 5px solid black;
+  border-left: 5px solid #000;
 }
-
+a:link {
+  color: #fff;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: #f5f5f5;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: #dcdcdc;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: #1d1d01;
+  background-color: transparent;
+  text-decoration: underline;
+}
+hr {
+  border-top: 4px solid #000;
+}
+li {
+  font-family: monospace;
+  font-weight: bold;
+  font-kerning: normal;
+}
+ol {
+  font-family: monospace;
+  font-weight: bold;
+  font-kerning: normal;
+}
+.dark-text {
+  color: #808080 !important;
+}
