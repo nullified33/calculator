@@ -1,3 +1,3 @@
 # calculator
-An easy to use ; open source web app.
-Also uses Boost-ISH licens, CSS framework used is Skeleton 
+
+An easy to use ; open source web app, uses Boost license, CSS framework used is Skeleton
